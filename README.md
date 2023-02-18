@@ -3,7 +3,7 @@ Humanistisen ammattikorkeakoulun raporttien lähdeviitetyyli Zotero-yhteensopiva
 
 ## Tiedoston käyttöönotto
 
-Lataa itsellesi paikallinen kopio tiedostosta Humak-lähdeviitteet.csl.
+Lataa itsellesi paikallinen kopio tiedostosta Humak-lähdeviitteet.csl (klikkaa yllä näkyvässä tiedostoluettelossa tiedoston nimeä hiiren oikealla painikkeella ja valitse "tallenna kohde levylle").
 
 Avaa Zotero. Siirry kohtaan Muokkaa > Asetukset > Viitteet. Lisää tyyli käyttöön klikkaamalla tyyliluettelolistan alapuolella sijaitsevaa +-merkkiä. Valitse tiedosto ja klikkaa Avaa.
 
