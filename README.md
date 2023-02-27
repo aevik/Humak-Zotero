@@ -52,6 +52,8 @@ Yleisesti ottaen kenttiin tulevien tekstien loppuun ei tule lisätä pistettä, 
 
 - Kirja, josta ei ole kirjattu Zoteroon muut kuin toimittajat, muotoutuu väärin lähdeluettelossa: toimittajien nimet tulevat vasta julkaisun nimen jälkeen. Tämä ei tosin liene käytännössä ongelma, sillä lähtökohtaisesti lähdettä käytettäessä on kuitenkin aina tiedossa itse tekstin kirjoittaja eikä vain toimittaja. (Vika ei koske kokonaan anonyymeja julkaisuja.)
 - Jos julkaisun tekijä ei ole tiedossa ja siksi lähdeluettelon alussa kerrotaan julkaisuja eikä tekijä, julkaisijan kotipaikkaa mainita myöhemmin rivillä (en jostakin syystä onnistunut saamaan Zoteroa toistamaan julkaisijan nimeä enkä halunnut tekstiin ylimääräistä "Helsinki:" -tekstiä keskelle).
+- Esitelmä-tyypissä kenttä Tapaamisen nimi (ts. esitelmän/luennon tilaisuuden nimi) ei tule mukaan lähdeluetteloon.
+- Humakin lähdeviiteohjeiden mukaan julkaisun, jolla on vähintään kolme tekijää, kaikkien tekijöiden nimet mainitaan viitattaessa lähteeseen ensimmäistä kertaa, esim. "(Korhonen, Mattila & Vauranen 2023)", ja seuraavilla kerroilla samaan lähteeseen viitattaessa vain ensimmäisen nimen osalta ja "ym.", esim. "(Korhonen ym. 2023)". Nykyinen tyylitiedosto ei osaa tunnistaa, monettako kertaa samaan lähteeseen viitataan, vaan tuottaa aina vain "ym."-version. Nämä tekstit pitää siis korjata käsin.
 
 Lähdeluetteloon ei myöskään liitetä vielä mainintoja esimerkiksi siitä, jos kirja on e-kirja tai äänikirja tai jos lähde ei julkaisematon. Humakin ohjeen mukaan tietysti kuuluisi.
 
