@@ -55,6 +55,8 @@ Yleisesti ottaen kenttiin tulevien tekstien loppuun ei tule lisätä pistettä, 
 - Esitelmä-tyypissä kenttä Tapaamisen nimi (ts. esitelmän/luennon tilaisuuden nimi) ei tule mukaan lähdeluetteloon.
 - Kirja-tyypissä Sarja-kenttä, esim. "Työ- ja elinkeinoministeriön julkaisuja", ei tule mukaan lähdeluetteloon.
 - Humakin lähdeviiteohjeiden mukaan julkaisun, jolla on vähintään kolme tekijää, kaikkien tekijöiden nimet mainitaan viitattaessa lähteeseen ensimmäistä kertaa, esim. "(Korhonen, Mattila & Vauranen 2023)", ja seuraavilla kerroilla samaan lähteeseen viitattaessa vain ensimmäisen nimen osalta ja "ym.", esim. "(Korhonen ym. 2023)". Nykyinen tyylitiedosto ei osaa tunnistaa, monettako kertaa samaan lähteeseen viitataan, vaan tuottaa aina vain "ym."-version. Nämä tekstit pitää siis korjata käsin.
+- Video-tyyppi ei toimi, koska tyylitiedosto ei osaa hakea sen tekijän nimeä eikä myöskään lisätä mukaan tarkennetta "video". Käytä sen sijaan tyyliä kirja ja lisää otsakkeen perään "(video)".
+- E-kirjalle ei ole vielä automaattista merkintätapaa. Lisää otsakkeen perään teksti "(E-kirja.)".
 
 Lähdeluetteloon ei myöskään liitetä vielä mainintoja esimerkiksi siitä, jos kirja on e-kirja tai äänikirja tai jos lähde ei julkaisematon. Humakin ohjeen mukaan tietysti kuuluisi.
 
