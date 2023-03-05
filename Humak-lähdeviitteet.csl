@@ -1641,8 +1641,8 @@
           <names variable="author" delimiter=", " >
             <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " initialize="false" delimiter=" &amp; " delimiter-precedes-last="never" form="long" suffix=" "/>
             <substitute>
-              <text variable="container-title" /> <!-- Jos ei kirjoittajan nimeä niin sivuston otsikko -->
-              <text variable="publisher" /> <!-- Jos ei sivuston otsikkoa niin julkaisija -->
+              <text variable="container-title" suffix=" "/> <!-- Jos ei kirjoittajan nimeä niin sivuston otsikko -->
+              <text variable="publisher" suffix=" "/> <!-- Jos ei sivuston otsikkoa niin julkaisija -->
             </substitute>
           </names>
           <text macro="date-intext"/>
