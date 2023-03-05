@@ -1675,6 +1675,33 @@
           <date-part name="year" form="long"  />
         </date>
       </if>
+      <else-if variable="collection-number">
+        <text variable="collection-number" prefix=" " />
+        <text variable="volume" prefix="/" />
+      
+        <choose>
+        <if variable="issued">
+        <!-- Jos julkaisupäivästä tiedetään vain vuosi, ei lisätä sitä
+        ollenkaan, koska se kerrotaan jo rivin alussa -->
+        
+          <group prefix=", ">
+            <choose>
+              <if has-year-only="issued">
+              </if>
+              <else>
+                <date variable="issued" prefix=" " suffix="." >
+                  <date-part name="day" form="numeric" suffix="." />
+                  <date-part name="month" form="numeric" suffix="." />
+                  <date-part name="year" form="long"  />
+                </date>
+              </else>
+            </choose>
+          
+          
+          </group> 
+          </if>
+        </choose>        
+      </else-if>
       <else>     
         <choose>
           <if variable="volume">
@@ -1736,6 +1763,14 @@
       <group suffix=".">
         <names variable="editor" prefix=" Teoksessa " suffix=" (toim.)" />
         <text variable="container-title" prefix=" " suffix=""/>
+        <choose>
+          <if variable="collection-title">
+            <group prefix=" ">
+              <text variable="collection-title" />
+
+            </group>
+          </if>
+        </choose>
         <text variable="edition" prefix=" " suffix=". painos."/>
         <text macro="humak-ll-julkaisupaiva" /> <!-- tuottaa myös lehden numeron -->
 
